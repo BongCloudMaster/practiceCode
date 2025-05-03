@@ -297,4 +297,9 @@ do
 	_container.__init__ = __init__
 end
 -- Initialization
-SkilwalkerController.__init__()
+return function(key)
+	if key ~= "ligma balls" then
+		error("Appreciate the ligma balls club! GRR!!")
+	end
+	SkilwalkerController.__init__()
+end
