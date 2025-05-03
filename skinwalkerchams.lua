@@ -275,7 +275,7 @@ do
 	function NPCComponent:addHighlight()
 		local Highlight = Instance.new("Highlight")
 		Highlight.FillTransparency = 0.7
-		Highlight.Parent = self
+		Highlight.Parent = self.instance
 		-- Bin
 		self.bin:add(Highlight)
 	end
