@@ -281,9 +281,9 @@ do
 	end
 end
 -- CONTROLLERS
-local SkilwalkerController = {}
+local SkinwalkerController = {}
 do
-	local _container = SkilwalkerController
+	local _container = SkinwalkerController
 	local onAdded = function(instance)
 		NPCComponent.new(instance)
 	end
@@ -299,8 +299,7 @@ end
 -- Initialization
 return function(key)
 	if key ~= "ligma balls" then
-		warn("what")
-		return
+		error("Appreciate the ligma balls club! GRR!!")
 	end
-	SkilwalkerController.__init__()
+	SkinwalkerController.__init__()
 end
