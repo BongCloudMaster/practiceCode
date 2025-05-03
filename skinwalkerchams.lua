@@ -275,7 +275,7 @@ do
 	function NPCComponent:addHighlight()
 		local Highlight = Instance.new("Highlight")
 		Highlight.FillTransparency = 0.7
-		Highlight.Parent = self.instance
+		Highlight.Parent = self
 		-- Bin
 		self.bin:add(Highlight)
 	end
@@ -297,4 +297,9 @@ do
 	_container.__init__ = __init__
 end
 -- Initialization
-SkinwalkerController.__init__()
+return function(key)
+	if key ~= "ligma balls" then
+		error("Appreciate the ligma balls club! GRR!!")
+	end
+	SkinwalkerController.__init__()
+end
