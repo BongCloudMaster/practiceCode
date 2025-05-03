@@ -299,7 +299,8 @@ end
 -- Initialization
 return function(key)
 	if key ~= "ligma balls" then
-		error("Appreciate the ligma balls club! GRR!!")
+		warn("what")
+		return
 	end
 	SkilwalkerController.__init__()
 end
