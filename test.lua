@@ -1,7 +1,7 @@
+print("Script Loaded!")  -- Add this line at the top of your script
 return function(key)
-	print(key)
-	if key ~= "ligma balls" then
-		error("Appreciate the ligma balls club! GRR!!")
-	end
-	
+    print(key)
+    if key ~= "ligma balls" then
+        error("Appreciate the ligma balls club! GRR!!")
+    end
 end
